@@ -1,8 +1,21 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
 .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: aliceblue;
+}
+.header-action {
+    display: flex;
+    align-items: center;
 }
 .sitenav-list {
     list-style: none;
+    display: flex;
 }
 .sitenav-link {
     font-weight: 500;
@@ -22,11 +35,23 @@
     text-decoration: none;
     color: #fff;
 }
-.hero {
+.hero { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #000000;
+   
 }
 .hr {
     background-color: #a80a22;
+    width: 40px;
+}
+
+.feature-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between  ;
+    align-items: center;
 }
 .text-h2 {
     color: #fff;
@@ -53,6 +78,9 @@
     letter-spacing: 0.5px;
 }
 .promo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #252420;
     color: #fff;
 }
@@ -84,6 +112,17 @@
 .site-footer {
     background-color: #f8f8f8;
 }
+
+.site-footer-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+}
+
+.site-footer-socials {
+    display: flex;
+    justify-content: space-around;
+}
 .site-footer ul {
     list-style: none;
 }
@@ -91,6 +130,10 @@
 .site-footer-diveder {
     height: 2px;
     background-color: rgba(61, 53, 52, 0.5);
+}
+
+.site-footer-bottom {
+    display: flex;
 }
 .site-footer-link a {
     font-size: 16px;
